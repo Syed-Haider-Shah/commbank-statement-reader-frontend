@@ -1,8 +1,9 @@
 const TextBox = () => {
   return(
-  <>
-  <div className='textbox'>TextBox</div>
-  </>
+  <div className='textbox'>
+    <div className='text1'>Welcome</div>
+    <div className='text2'>Please Upload your Bank Statement.</div>
+  </div>
   )
 }
 

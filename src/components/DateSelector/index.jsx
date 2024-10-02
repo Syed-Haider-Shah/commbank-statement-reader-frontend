@@ -3,7 +3,7 @@ import '../index.css'
 const DateSelector = () => {
   return(
     <>
-    <div className='dateselector'>
+    <div className='dateselector'> Month Selector
     </div>
     </>
   )
