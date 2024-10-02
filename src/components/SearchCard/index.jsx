@@ -1,8 +1,12 @@
-import './index.css'
+import Button from '../Button'
+import '../index.css'
+
 const SearchCard = () => {
   return(
     <>
-    <div className='btn'>Search Card</div>
+    <div className='card'>
+      <Button/>
+    </div>
     </>
   )
 }

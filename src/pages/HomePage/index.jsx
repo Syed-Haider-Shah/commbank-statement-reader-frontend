@@ -1,9 +1,12 @@
+import Heading from '../../components/Heading'
 import SearchCard from '../../components/SearchCard'
+import '../index.css'
 
 const HomePage = () => {
   return(
   <>
-    <div>
+    <div className='container'>
+      <Heading/>
       <SearchCard/>
     </div>
     </>)

@@ -1,0 +1,16 @@
+.card {
+  background-color: blue;
+  display: flex;
+  height: 50vh;
+  width: 50vh;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  color: blue;
+}
+
+.heading {
+  background:red;
+  font-size: 24px;
+  margin: 
+}

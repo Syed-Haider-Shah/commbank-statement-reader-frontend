@@ -15,9 +15,9 @@ function App() {
   }, []);
 
   return (
-    <>
-      <div><HomePage/></div>
-    </>
+    <div className='container'>
+      <HomePage/>
+    </div>
   )
 }
 
