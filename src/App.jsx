@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import HomePage from './pages/HomePage'
 import './App.css'
 import axios from 'axios'
 
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div>Yo</div>
+      <div><HomePage/></div>
     </>
   )
 }
