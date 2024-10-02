@@ -3,7 +3,7 @@ import '../index.css'
 const Button = () => {
   return(
   <>
-  <button className='btn'>Upload CSV</button>
+  <button className='btn'>Upload Another</button>
   </>)
 }
 

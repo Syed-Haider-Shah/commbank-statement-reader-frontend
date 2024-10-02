@@ -64,7 +64,10 @@
 
 .btn {
   border-radius:  10px;
+  border: 0;
   background: black;
   color: #f7f7f7;
-  padding: 8px 110px;
+  padding: 10px 110px;
+  font-size: 12px;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
