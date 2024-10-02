@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  background-color: green;
 }
 
 .container{
-  background: black;
+  background: #f7f7f7;
   height:100vh;
   margin: auto 0;
 }
