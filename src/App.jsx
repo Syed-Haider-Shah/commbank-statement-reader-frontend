@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import HomePage from './pages/HomePage'
 import './App.css'
 import axios from 'axios'
+import Nav from './components/Nav'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className='container'>
+      <Nav/>
       <HomePage/>
     </div>
   )

@@ -12,5 +12,11 @@
 .heading {
   background:red;
   font-size: 24px;
-  margin: 
+  margin: 10%;
+}
+
+.nav{
+  background: black;
+  height: 12%;
+  width: 100%;
 }
