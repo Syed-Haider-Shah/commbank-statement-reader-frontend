@@ -1,13 +1,14 @@
 .card {
-  background-color: blue;
+  background: white;
   display: flex;
   height: 50vh;
-  width: 50vh;
+  width: 40vh;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 20px;
   color: blue;
   flex-direction: column;
+  border-radius: 10px
 }
 
 .heading {
@@ -36,4 +37,10 @@
   background: black;
   padding: 20px;
   color: white;
+}
+
+.textbox{
+  background: purple;
+  color: white;
+  padding: 10px 40px;
 }

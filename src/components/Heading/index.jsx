@@ -1,7 +1,7 @@
 const Heading = () => {
   return(
   <>
-  <div className='heading'>Heading</div>
+  <div className='heading'>Bank Statement Reader</div>
     </>
     )
 }
