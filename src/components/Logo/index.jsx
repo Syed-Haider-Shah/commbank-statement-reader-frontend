@@ -1,10 +1,16 @@
+import PropTypes from 'prop-types';
 
-const Logo = () => {
+const Logo = ({ image, cusStyle }) => {
   return(
   <>
-  <img src='/Logo.png' className='logo'/>
+  <img src={image} className={cusStyle}/>
   </>
   )
+}
+
+Logo.propTypes = {
+  image: PropTypes.string.isRequired,
+  cusStyle: PropTypes.string,
 }
 
 export default Logo

@@ -14,14 +14,15 @@
 
 
 .heading {
-  background:red;
-  font-size: 24px;
-  margin: 10%;
+  background:transparent;
+  font-size: 30px;
+  margin: 10% auto;
+  font-weight: bold;
 }
 
 .nav{
   display: flex;
-  background: red;
+  background: black;
   height: 12%;
   width: 100%;
   align-items: center;
@@ -41,6 +42,12 @@
   height:70px;
   color: white;
   margin-top: 8%;
+}
+
+.logo2{
+  height:60px;
+  color: white;
+  margin: 0 100px;
 }
 
 .textbox{
@@ -67,19 +74,27 @@
 .btn {
   cursor: pointer;
   border: 0;
-  background: black;
   color: #f7f7f7;
 }
 
-.upload {
+.upload-btn {
   padding: 10px 110px;
+  background: black;
   font-size: 12px;
   border-radius:  10px;
   box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 .btn-hover {
   text-shadow: 0px 0px 2px #ffffff;
   box-shadow: none;
   transition: text-shadow 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.nav-btn {
+  padding: 10px;
+  margin: 0 10px;
+  background: transparent;
+  font-size: 16px;
 }

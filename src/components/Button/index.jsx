@@ -2,19 +2,20 @@ import '../index.css'
 import { useState } from 'react'
 import PropTypes from 'prop-types';
 
-const Button = ({ cusStyle }) => {
+const Button = ({ cusStyle, title }) => {
   const [isHovered, onHover] = useState(false);
   return(
   <>
   <button 
   onMouseEnter={() => onHover(true)} 
   onMouseLeave={() => onHover(false)} 
-  className={`btn ${cusStyle} ${isHovered ? 'btn-hover' : ''}`}>Upload Another</button>
+  className={`btn ${cusStyle} ${isHovered ? 'btn-hover' : ''}`}>{title}</button>
   </>)
 }
 
 Button.propTypes = {
-  cusStyle: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  cusStyle: PropTypes.string,
 }
 
 export default Button

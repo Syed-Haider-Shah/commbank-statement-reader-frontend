@@ -9,11 +9,11 @@ const SearchCard = () => {
   return(
     <>
     <div className='card'>
-      <Logo/>
+      <Logo image='/Logo.png' cusStyle='logo'/>
       <TextBox/>
       <SearchBar/>
       <DateSelector/>
-      <Button cusStyle={'upload'}/>
+      <Button cusStyle={`upload-btn`} title='Upload Again'/>
     </div>
     </>
   )
