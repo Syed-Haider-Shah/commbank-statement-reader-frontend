@@ -13,7 +13,7 @@ const SearchCard = () => {
       <TextBox/>
       <SearchBar/>
       <DateSelector/>
-      <Button/>
+      <Button cusStyle={'upload'}/>
     </div>
     </>
   )

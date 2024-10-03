@@ -1,7 +1,12 @@
+import Button from '../Button';
+
 const Nav = () => {
   return(
   <>
-  <div className='nav'>Nav</div>
+  <div className='nav'>
+    <Button/>
+    <Button/>
+  </div>
   </>
   )
 }
