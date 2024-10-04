@@ -24,8 +24,9 @@ const SearchBar = () => {
           placeholder="Search Term..."
           className="searchbar"
         />
-        <Button title='' cusStyle='search-btn'/>
+        <Button title='' cusStyle='search-btn'>
           <ArrowUp color={'white'}/>
+          </Button>
       </form>
     </>
   )
