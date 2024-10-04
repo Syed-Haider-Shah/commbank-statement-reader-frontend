@@ -11,9 +11,11 @@ const SearchCard = () => {
     <div className='card'>
       <Logo image='/Logo.png' cusStyle='logo'/>
       <TextBox/>
-      <SearchBar/>
-      <DateSelector/>
-      <Button cusStyle={`upload-btn`} title='Upload Again'/>
+      <div className='last-section'>
+        <SearchBar/>
+        <DateSelector/>
+        <Button cusStyle={`upload-btn`} title='Upload Again'/>
+      </div>
     </div>
     </>
   )
