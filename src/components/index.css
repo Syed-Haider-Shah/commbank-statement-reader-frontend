@@ -14,10 +14,14 @@
 
 
 .heading {
-  background:transparent;
-  font-size: 30px;
-  margin: 10% auto;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background:black;
+  font-size: 26px;
+  margin: 12% auto;
   font-weight: bold;
+  text-shadow: 0px 0px 2px 2px #ffffff;
 }
 
 .nav{
@@ -34,7 +38,6 @@
 }
 
 .searchbar{
-  background:green;
   padding: 10px 80px;
 }
 
@@ -86,7 +89,7 @@
 }
 
 
-.btn-hover {
+.btn:hover {
   text-shadow: 0px 0px 2px #ffffff;
   box-shadow: none;
   transition: text-shadow 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -97,4 +100,35 @@
   margin: 0 10px;
   background: transparent;
   font-size: 16px;
+}
+
+.searchbar {
+  padding: 10px 12px;
+  margin: 8px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: #D1D5DB;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); 
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); 
+  border-color: transparent;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: #4e80ee;
+}
+
+.search-btn:hover{
+  background: #3662e3;
+  transition: text-shadow 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 }
